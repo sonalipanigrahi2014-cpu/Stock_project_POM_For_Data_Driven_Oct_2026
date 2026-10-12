@@ -1,0 +1,27 @@
+{
+  "name": "stock_pom_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ERP-SingleData":"npx playwright test tests/ERPSingleData.spec.ts",
+    "HTML-reports": "npx playwright show-report",
+    "Allure-reports": "npx allure generate allure-results --clean -o allure-report && npx allure open allure-report",
+    "ERP-Jsonfile":"npx playwright test tests/ERPUsingJson.spec.ts",
+    "ERP-Excel":"npx playwright test tests/ERPUsingExcel.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.11.1",
+    "dotenv": "^17.4.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

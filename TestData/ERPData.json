@@ -1,0 +1,50 @@
+{
+     "Suppliers":[
+        {
+            "Suppliername":"Ranga",
+            "Address":"Hyderabad",
+            "City":"Ameerpet",
+            "Country":"India",
+            "ContactPerson":"Qedge",
+            "PhoneNumber":"7876543",
+            "Email":"Ranga@gmail.com",
+            "MobileNumber":"456789765",
+            "Notes":"Added Supplier"
+        },
+        {
+            "Suppliername":"David",
+            "Address":"USA",
+            "City":"London",
+            "Country":"USA",
+            "ContactPerson":"Ranaga",
+            "PhoneNumber":"876543",
+            "Email":"David@gmail.com",
+            "MobileNumber":"456789765",
+            "Notes":"Second Supplier Added"
+        }
+    ],
+    "customers":[
+        {
+            "Customername":"Ramu",
+            "Address":"Srnagar",
+            "City":"Sec",
+            "Country":"India",
+            "ContactPerson":"Raju",
+            "PhoneNumber":"98765432",
+            "Email":"Ramau@gmail.com",
+            "MobileNumber":"654321",
+            "Notes":"Addres Customer1"
+        },
+        {
+            "Customername":"Ramu3",
+            "Address":"Srnagar4",
+            "City":"Sec5",
+            "Country":"India",
+            "ContactPerson":"Raju4",
+            "PhoneNumber":"98765432",
+            "Email":"Raju@gmail.com",
+            "MobileNumber":"654321",
+            "Notes":"Addres Customer2"
+        }
+    ]
+}
